@@ -34,7 +34,7 @@ nav {
 
 .img {
   height: calc(500px + 20vh);
-  
+
   /* border: solid 25px blue; */
 
   position: relative;
@@ -51,11 +51,11 @@ width: calc(515px + 20vw);
  margin: auto;
   display: flex;
   flex-direction: column;
- 
+
 }
 .range::-webkit-slider-thumb {
   -webkit-appearance: none;
-  appearance: none;  
+  appearance: none;
   width: 15px;
   height: 30px;
   background: #708FFD;
@@ -64,7 +64,7 @@ width: calc(515px + 20vw);
 }
 .range {
   -webkit-appearance: none;
-  appearance: none;  
+  appearance: none;
   display: flex;
   border: none;
   outline: none;
@@ -85,8 +85,8 @@ width: calc(515px + 20vw);
 .img .img1 {
   width: 100%;
   height: 100%;
-  background-image: url(./img/Bond_AbdoPelvis_CT_Coronal-1.jpg);
-  
+  background-image: url(./img/Frame1.png);
+
   opacity: var(--opacityImg2);
   /* border: solid 15px orange; */
   display: flex;
@@ -102,7 +102,7 @@ width: calc(515px + 20vw);
 .img .img2 {
   width: 100%;
   height: 100%;
-  background-image: url(./img/quadrants.png);
+  background-image: url(./img/Frame2.png);
     opacity: var(--opacityImg1);
   /* border: solid 15px orange; */
   display: flex;
