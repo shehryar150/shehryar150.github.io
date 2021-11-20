@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--- Thanks Eric --->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Medlegal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/~amyz/visual_scicomm/logos/favicon.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/~amyz/medlegal/style.css" />
+
+</head>
+
+<body>
+    <main>
+    <nav>
+    </nav>
+    <div class="slider-container">
+        <div class="img">
+            <div class="img2"></div>
+            <div class="img1"></div>
+        </div>
+        <div class="slider-wrapper"> 
+
+
+            <!-- Onchange & mousemove for browser compatitibility -->
+            <input type="range" class="range" min="0" max="100" value="0" 
+            
+            
+            onchange="rangeValue(this.value)"
+                onmousemove="rangeValue(this.value)">
+            <div class="slider-label">
+            <div class="left-label">CT Scan (3D Model)</div>
+            <div class="right-label">Illustration</div>
+        </div>
+        </div>
+    </div>
+</main>
+    <script src="/~amyz/medlegal/script.js"></script>
+</body>
+
+</html>
